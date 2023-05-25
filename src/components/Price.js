@@ -27,7 +27,7 @@ function Price() {
                     </div>
                     <div className="pricing-card-footer">
                         <span>$</span>
-                        <span>0.00/Month</span>
+                        <span>0.0/Month</span>
                     </div>
                     <a href="#" className="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
                 </div>
