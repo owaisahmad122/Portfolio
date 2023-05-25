@@ -5,7 +5,7 @@ function Nav() {
   return (
     <nav className="custom-navbar" data-spy="affix" data-offset-top="20">
     <div className="container">
-        <a className="logo" href="#">Owais Ahmad</a>         
+        <a className="logo" href="#">Owais  Ahmad</a>         
         <ul className="nav">
             <li className="item">
                 <a className="link" href="#home">Home</a>
