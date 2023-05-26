@@ -2,7 +2,7 @@ import React from 'react'
  
 
 function Nav() {
-    const [toggle, setToggle] = useState(true);
+   // const [toggle, setToggle] = useState(true);
   return (
     <nav className="custom-navbar" data-spy="affix" data-offset-top="20">
     <div className="container">
