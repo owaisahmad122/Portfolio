@@ -15,7 +15,7 @@ function About() {
                 <p className="section-subtitle">Who Am I ?</p>
                     <h2 className="section-title mb-3">About Me</h2>
                 <p>   
-                <b>
+                <b className=''>
                 A passionate Full Web Developer having experience of building web application with JavaScript/Reactjs/Nodejs/ Reduxjs and some other cool libraries and frameworks.I'm still enthusiastically learning more programming languages, frameworks, or principles I can integrate into the coding web in my head.Besides coding, I love traveling and meeting new people, playing Cricket or any online game {' '}.
                 </b>  
                 </p> 
