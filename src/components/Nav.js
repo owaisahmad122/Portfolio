@@ -10,7 +10,7 @@ function Nav() {
         <a className="logo" href="#">Owais   Ahmad</a> 
         {
             toggle && (
-        <ul className="nav">
+        <ul className="nav" >
             <li className="item">
                 <a className="link" href="#home">Home</a>
             </li>
