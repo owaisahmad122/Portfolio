@@ -1,0 +1,14 @@
+git add src/components/Price.js
+git commit -m "Committing local changes to Price.js"
+git pull
+By committing your local changes, Git will create a new commit with your changes, and then you can proceed with the pull operation.
+
+Stash your local changes: If you want to temporarily set aside your local changes and apply them later, you can use Git's stash feature. The stash allows you to save your changes and revert the working directory to the previous commit. Follow these steps:
+
+shell
+Copy code
+git stash
+git pull
+After running git stash, your local changes will be stashed, and you can proceed with the git pull. Once the pull is complete, you can apply your stashed changes using git stash apply or git stash pop.
+
+Choose the option that aligns with your intentions for the local changes, whether you want to commit them or stash them, and then proceed with the git pull operation.
