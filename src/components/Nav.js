@@ -29,7 +29,7 @@ function Nav() {
                 <a href="components.html" className="btn btn-primary">Components</a>
             </li>
         </ul>
-        <a href={javascript=void(0)} id="nav-toggle" className="hamburger hamburger--elastic">
+        <a href={#javascript=void(0)} id="nav-toggle" className="hamburger hamburger--elastic">
             <div className="hamburger-box">
               <div className="hamburger-inner"></div>
             </div>
