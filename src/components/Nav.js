@@ -5,7 +5,7 @@ function Nav() {
   return (
     <nav className="custom-navbar" data-spy="affix" data-offset-top="20">
     <div className="container">
-        <a className="logo" href="#">Owais    Ahmad</a>         
+        <a className="logo" href="#">Owais   Ahmad</a>         
         <ul className="nav">
             <li className="item">
                 <a className="link" href="#home">Home</a>
@@ -29,7 +29,7 @@ function Nav() {
                 <a href="components.html" className="btn btn-primary">Components</a>
             </li>
         </ul>
-        <a href="javascript:void(0)" id="nav-toggle" className="hamburger hamburger--elastic">
+        <a href={javascript=void(0)} id="nav-toggle" className="hamburger hamburger--elastic">
             <div className="hamburger-box">
               <div className="hamburger-inner"></div>
             </div>
