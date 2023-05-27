@@ -12,6 +12,9 @@ import Testmonial from './components/Testmonial';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Sdata from './components/Sdata'
+
+
 
 function App() {
   return (
@@ -27,6 +30,7 @@ function App() {
       <Blog/>
       <Contact/>
       <Footer/>
+      {console.log(Sdata)}
     </div>
   );
 }
