@@ -34,7 +34,7 @@ function App(val) {
       <Blog/>
       <Contact/>
       <Footer/>
-      {console.log(Sdata)}
+     
     </div>
   );
 }
