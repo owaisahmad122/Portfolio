@@ -15,7 +15,7 @@ import Footer from './components/Footer';
 import Sdata from './components/Sdata'
 
 
-const Ssdata =Sdata.map(val) 
+const Ssdata =Sdata.map() 
 
 //console.log();
 const App = () =>{
