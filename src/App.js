@@ -19,13 +19,16 @@ import Sdata from './components/Sdata'
 
 //console.log();
 const App = () =>{
-  const Ssdata =Sdata.map() 
-  console.log(Ssdata.description);
+  const Ssdata =Sdata.map((val)=>{
+    console.log(val);
+    return <About description={val.description} image={val.image}/> 
+  }) 
+ 
   return (
     <>
       <Nav/>
       <Header/> 
-      <About description={Sdata.description} image='C:\Users\Owais\OneDrive\Desktop\Own_project\portfolio\src\assets\imgs\man.png'/> 
+      
       < Services/>
       <Portfolio/>
       <Price></Price>
