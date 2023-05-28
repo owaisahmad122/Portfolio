@@ -2,6 +2,7 @@ import React from 'react'
 //import Man from '../assets/imgs/man.png'
 
 function About(props) {
+    console.log(propps);
   return (
     <section className="section pt-0" id="about">
     
