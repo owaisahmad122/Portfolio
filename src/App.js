@@ -15,7 +15,17 @@ import Footer from './components/Footer';
 import Sdata from './components/Sdata'
 
 
-//const Ssdata =Sdata.map(val)  
+//const Ssdata =Sdata.map(val) 
+const Ssdata = [
+  {
+      description:'A passionate Full Web Developer having experience of building web application with JavaScript/Reactjs/Nodejs/ Reduxjs and some other cool libraries and frameworks.I am still enthusiastically learning more programming languages, frameworks, or principles I can integrate into the coding web in my head.Besides coding, I love traveling and meeting new people, playing Cricket or any online game .',            
+      image:'../assets/imgs/man.png'
+  
+  
+  
+  
+  } 
+]
 
 //console.log(Sdata);
 const App = () =>{
@@ -23,7 +33,7 @@ const App = () =>{
     <>
       <Nav/>
       <Header/> 
-      <About description={Sdata.description} image={Sdata.image}/> 
+      <About description={Ssdata.description} image={Ssdata.image}/> 
       < Services/>
       <Portfolio/>
       <Price></Price>
