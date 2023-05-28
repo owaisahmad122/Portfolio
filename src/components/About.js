@@ -3,6 +3,7 @@ import React from 'react'
 
 function About(props) {
     console.log(props);
+    
   return (
     <section className="section pt-0" id="about">
     
