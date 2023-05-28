@@ -1,8 +1,8 @@
 import React from 'react'
 import Ana from   '../assets/imgs/analytics.svg';
 //import { ReactComponent as scooter } from '../assets/imgs/scooter.svg';
-import Response from   '../imgs/responsive.svg';
-import Tool from   '../imgs/toolbox.svg';
+import Response from   '../assets/imgs/responsive.svg';
+import Tool from   '../assets/imgs/toolbox.svg';
 
 
 function Services() {
