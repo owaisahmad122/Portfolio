@@ -22,6 +22,7 @@ import Sdata from './components/Sdata'
 const App = () => {
   
   {const ndata =Sdata.map((val))}
+  console.log(val);
   return (
     <>
       <Nav/>
