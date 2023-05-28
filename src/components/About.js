@@ -15,9 +15,9 @@ function About(props) {
                 <p className="section-subtitle">Who Am I ?</p>
                     <h2 className="section-title mb-3">About Me</h2>
                 <p>   
-                <b>
+    
                  {props.description}
-                </b>  
+                
                 </p> 
                 <button className="btn-rounded btn btn-outline-primary mt-4">{' '}Download CV</button>
             </div>              
