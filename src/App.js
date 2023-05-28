@@ -19,13 +19,16 @@ import Sdata from './components/Sdata'
 
 //console.log(Ssdata);
 
-function App(val) {
+const App = (val) => {
   console.log(val)
+  {const ndata =Sdata.map((val) => {
+    return  <About image={val.image} description={val.description}/>
+
+  }) }
   return (
-    <div >
+    <>
       <Nav/>
-      <Header/>
-      <About></About>
+      <Header/>  
       < Services/>
       <Portfolio/>
       <Price></Price>
@@ -33,10 +36,11 @@ function App(val) {
       <Testmonial/>
       <Blog/>
       <Contact/>
-      <Footer/>
-     
-    </div>
+      <Footer/>  
+    </>
+   
+  
   );
-}
+  }
 
 export default App;
