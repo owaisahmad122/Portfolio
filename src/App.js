@@ -23,7 +23,7 @@ const App = (val) => {
   return (
     <>
       <Nav/>
-      <About image={val.image} description={val.description}/>
+      <About image={ndata.image} description={ndata.description}/>
       <Header/>  
       < Services/>
       <Portfolio/>
