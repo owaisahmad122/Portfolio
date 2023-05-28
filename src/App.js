@@ -18,10 +18,10 @@ import Sdata from './components/Sdata'
 //const Ssdata =Sdata.map(val)  
 
 //console.log(Ssdata);
-
-const App = () => {
+{const ndata =Sdata.map((val))}
+const App = (val) => {
   
-  {const ndata =Sdata.map((val))}
+  
   console.log(val);
   return (
     <>
