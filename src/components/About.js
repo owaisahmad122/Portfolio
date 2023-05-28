@@ -16,6 +16,7 @@ function About(props) {
                     <h2 className="section-title mb-3">About Me</h2>
                 <p>   
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <b className=''>
                 A passionate Full Web Developer having experience of building web application with JavaScript/Reactjs/Nodejs/ Reduxjs and some other cool libraries and frameworks.I'm still enthusiastically learning more programming languages, frameworks, or principles I can integrate into the coding web in my head.Besides coding, I love traveling and meeting new people, playing Cricket or any online game {' '}.
 =======
@@ -23,6 +24,11 @@ function About(props) {
                  {props.description}
 >>>>>>> 224e1b09289ff0f29d575b822112cbdbad47c56a
                 </b>  
+=======
+    
+                 {props.description}
+                
+>>>>>>> c9da0901e7738d4447848a7936de1a021257c4e4
                 </p> 
                 <button className="btn-rounded btn btn-outline-primary mt-4">{' '}Download CV</button>
             </div>              
