@@ -17,9 +17,9 @@ import Sdata from './components/Sdata'
 
 //const Ssdata =Sdata.map(val)  
 
-//console.log(Ssdata);
+console.log(Sdata);
 {const ndata =Sdata.map((val))}
-const App = (val) => {
+const App = () => {
   return (
     <>
       <Nav/>
