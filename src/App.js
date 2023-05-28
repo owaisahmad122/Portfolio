@@ -22,8 +22,8 @@ const App = () =>{
   return (
     <>
       <Nav/>
-      <About image={Sdata.image} description={Sdata.description}/>
-      <Header/>  
+      <Header/> 
+      <About description={Sdata.description} image={Sdata.image}/> 
       < Services/>
       <Portfolio/>
       <Price></Price>
