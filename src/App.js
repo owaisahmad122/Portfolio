@@ -15,11 +15,11 @@ import Footer from './components/Footer';
 import Sdata from './components/Sdata'
 
 
-const Ssdata =Sdata.map() 
+
 
 //console.log();
 const App = () =>{
-
+  const Ssdata =Sdata.map() 
   console.log(Ssdata.description);
   return (
     <>
