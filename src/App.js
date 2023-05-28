@@ -20,9 +20,6 @@ import Sdata from './components/Sdata'
 //console.log(Ssdata);
 {const ndata =Sdata.map((val))}
 const App = (val) => {
-  
-  
-  console.log(val);
   return (
     <>
       <Nav/>
