@@ -26,7 +26,7 @@ function About(props) {
                 </b>  
 =======
     
-                 {props.description}
+                  {props.description}
                 
 >>>>>>> c9da0901e7738d4447848a7936de1a021257c4e4
                 </p> 
