@@ -15,11 +15,12 @@ import Footer from './components/Footer';
 import Sdata from './components/Sdata'
 
 
-//const Ssdata =Sdata.map(val) 
+const Ssdata =Sdata.map(val) 
 
 //console.log();
 const App = () =>{
-  console.log(Sdata.description);
+
+  console.log(Ssdata.description);
   return (
     <>
       <Nav/>
