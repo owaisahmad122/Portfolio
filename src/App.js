@@ -31,7 +31,7 @@ const App = () =>{
   return (
     
     <>
-    {console.log(Ssdata)}
+     {console.log(Ssdata)}
       <Nav/>
       <Header/> 
       {Ssdata}
