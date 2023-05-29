@@ -12,7 +12,7 @@ import Testmonial from './components/Testmonial';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Sdata from './components/Sdata'
+import Sdata from './components/Sdata.js';
 
 
 
@@ -23,12 +23,10 @@ const App = () =>{
    //console.log(val)
     <div key={val.id}>
       
-     <About description={val.description} image={val.image}/> 
-   
-     <Services descriptions={val.descriptions} images={val.images}/>
+    <About description={val.description} image={val.image} />
+    <Services descriptions={val.descriptions} images={val.images} />
     </div>
-   )
-   );
+   ));
  
   return (
     
