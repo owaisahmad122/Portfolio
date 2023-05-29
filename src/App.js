@@ -24,14 +24,14 @@ const App = () =>{
     <div key={val.id}>
       
     <About description={val.description} image={val.image} />
-    <Services descriptions={val.descriptions} images={val.images} />
+    <Services descriptions={val.description} images={val.image} />
     </div>
    ));
  
   return (
     
     <>
-    {console.log(Ssdata)}
+     {console.log(Ssdata)}
       <Nav/>
       <Header/> 
       {Ssdata}

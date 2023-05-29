@@ -7,19 +7,19 @@ const Sdata = [
 },
 {
     id:2,
-    descriptions:"Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.",
+    description:"Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.",
     images:"Images/analytics.svg"
 
 },
 {
     id:3,
-    descriptions:"Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.",
+    description:"Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.",
     images:"Images/responsive.svg"
 
 },
 {
     id:4,
-    descriptions:"Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.",
+    description:"Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.",
     images:"Images/toolbox.svg"
 
 }
