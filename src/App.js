@@ -19,24 +19,21 @@ import Sdata from './components/Sdata'
 
 //console.log();
 const App = () =>{
-  const Ssdata =Sdata.map((val)=>{
-   // console.log(val);
-    return (
-    <About description={val.description} image={val.image}/>, 
+  const Ssdata =Sdata.map((val)=> (
    
-    <Services descriptions={val.descriptions} images={val.images} />
-    
-    
-    );
-   }) 
+    <>
+     <About description={val.description} image={val.image}/>, 
+   
+     <Services descriptions={val.descriptions} images={val.images} />
+    </>
+   )
+   ) 
  
   return (
     <>
       <Nav/>
       <Header/> 
       {Ssdata}
-      {Ssdata}
-      
       <Portfolio/>
       <Price></Price>
       <Hire></Hire>
