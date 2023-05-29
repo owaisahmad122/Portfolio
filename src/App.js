@@ -32,7 +32,7 @@ const App = () =>{
       <Nav/>
       <Header/> 
       {Ssdata}
-      <Services descriptions={val.descriptions} images={val.images} />
+      <Services />
       <Portfolio/>
       <Price></Price>
       <Hire></Hire>
