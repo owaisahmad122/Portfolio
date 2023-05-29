@@ -23,12 +23,12 @@ const App = () =>{
    //console.log(val)
     <div key={val.id}>
       
-     <About description={val.description} image={val.image}/>, 
+     <About description={val.description} image={val.image}/> 
    
-     <Services descriptions={val.descriptions} images={val.images} />
+     <Services descriptions={val.descriptions} images={val.images}/>
     </div>
    )
-   ) 
+   );
  
   return (
     
