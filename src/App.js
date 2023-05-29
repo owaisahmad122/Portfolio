@@ -12,27 +12,27 @@ import Testmonial from './components/Testmonial';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Sdata from './components/Sdata.js';
+import Sdata from './components/Sdata'
 
 
 
 
 //console.log();
 const App = () =>{
-  const Ssdata =Sdata.map((val)=> {
-   //console.log(val)
-   return( <div key={val.id}>
-    <Services descriptions={val.description} images={val.image} />
-    </div>
-   )});
+  const Ssdata =Sdata.map((val)=>{
+   // console.log(val);
+    return (
+    <About description={val.description} image={val.image}/>   
+    
+    );
+  }) 
  
   return (
-    
     <>
-     {console.log(Ssdata)}
       <Nav/>
       <Header/> 
       {Ssdata}
+      <Services descriptions={val.descriptions} images={val.images} />
       <Portfolio/>
       <Price></Price>
       <Hire></Hire>
