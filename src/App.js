@@ -20,9 +20,9 @@ import Sdata from './components/Sdata'
 //console.log();
 const App = () =>{
  
-  const Ssdata =Sdata.map((val , index)=>{
+  const Ssdata =Sdata.map((val,index)=>{
    //console.log(index[0]);
-   console.log(Sdata);
+   console.log(Sdata.description);
     return 
     <About description={val.description} image={val.image}/>   
    // );
