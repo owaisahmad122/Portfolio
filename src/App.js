@@ -22,7 +22,7 @@ const App = () =>{
   const Ssdata =Sdata.map((val , index)=>{
    console.log(index);
     //return (
-      <div key={Ssdata.id}>
+      <div>
     <About description={val.description} image={val.image}/>   
     </div>
    // );
