@@ -15,11 +15,11 @@ import Footer from './components/Footer';
 import Sdata from './components/Sdata'
 
 
-
+{ console.log(Sdata);}
 
 //console.log();
 const App = () =>{
-  console.log(Sdata);
+ 
   const Ssdata =Sdata.map((val , index)=>{
    console.log(index[0]);
     return 
