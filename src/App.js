@@ -12,7 +12,7 @@ import Testmonial from './components/Testmonial';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Sdata from './components/Sdata'
+import Sdata from './components/Sdata';
 
 
 
@@ -22,7 +22,7 @@ const App = () =>{
   
   const Ssdata =Sdata.map((val,index)=>{
      //console.log(Ssdata);
-    //console.log(val.description);
+    console.log(val);
 
     return 
     <About description={val.description} image={val.image}/>   
