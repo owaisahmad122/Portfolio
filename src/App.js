@@ -28,7 +28,7 @@ const App = () =>{
     </div>  
    // );
   }) 
- {//console.log(Ssdata);}
+ //{//console.log(Ssdata);}
   return (
     <>
       <Nav/>
