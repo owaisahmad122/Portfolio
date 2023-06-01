@@ -23,9 +23,9 @@ const App = () =>{
   const Ssdata =Sdata.map((val,index)=>{
      //console.log(Ssdata);
     console.log(val);
-
-    return 
-    <About description={val.description} image={val.image}/>   
+    <div key={val.id}>
+    <About description={val.description} image={val.image}/> 
+    </div>  
    // );
   }) 
  {console.log(Ssdata);}
