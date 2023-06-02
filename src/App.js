@@ -23,8 +23,8 @@ const App = () =>{
   const Ssdata = {
     1: About, 
     2: Services,
-    3: Services,
-    3: Services 
+   // 3: Services,
+    //3: Services 
     }
  
   return (
