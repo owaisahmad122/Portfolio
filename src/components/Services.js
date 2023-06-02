@@ -6,7 +6,7 @@ import React from 'react'
 
 
 const Services =(data) => {
-    console.log(data.image)
+    console.log(data)
   return (
     <section className="section" id="service">
     <div className="container text-center">
