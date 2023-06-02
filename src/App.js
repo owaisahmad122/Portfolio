@@ -14,26 +14,37 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Sdata from './components/Sdata';
 
+const Ssdata = {
+1: About, 
+2: Services,
+3: Services,
+3: Services 
 
+
+}
+return(
+Sdata.map((val,index)=>{
+
+  <>
+const components =Ssdata[val.id];
+ <components key={val.id}  data={val}>
+  
+ </components>   
+ </>
+// );
+}) 
+)
 
 
 //console.log();
 const App = () =>{
   
-  const Ssdata =Sdata.map((val,index)=>{
-     //console.log(Ssdata);
-   // console.log(val);
-    <div key={val.id}>
-    <About description={val.description} image={val.image}/> 
-    </div>  
-   // );
-  }) 
  //{//console.log(Ssdata);}
   return (
     <>
       <Nav/>
       <Header/> 
-      {Ssdata}
+    
       <Services />
       <Portfolio/>
       <Price></Price>
