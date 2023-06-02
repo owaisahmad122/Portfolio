@@ -5,8 +5,8 @@ import React from 'react'
 //import Tool from   '../assets/imgs/ toolbox.svg';
 
 
-const Services =({data}) => {
-    console.log(data[image])
+const Services =(data) => {
+    console.log(data.image)
   return (
     <section className="section" id="service">
     <div className="container text-center">
