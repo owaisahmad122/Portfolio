@@ -20,27 +20,13 @@ import Sdata from './components/Sdata';
 //console.log();
 const App = () =>{
   
-  const MapComponent = {
-    1: About, 
-    2: Services,
-    3: Services,
-    4: Services 
-    }
+  
  
   return (
     <>
       <Nav/>
       <Header/> 
-      {console.log(Sdata.map())}
-      <div>
-        {
-        Sdata.map(val=>{
-    const Components = MapComponent[val.id];
-    {console.log( Sdata.map(val));}
-    return
-     <Components key={val.id}  data={val}/> ;
-     }) } 
-     </div>
+      
       <Services />
       <Portfolio/>
       <Price></Price>
