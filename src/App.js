@@ -30,9 +30,13 @@ const App = () =>{
 
    const MyComponent=MapComponent[index];
     //console.log(val);
-    if(MyComponent)
+    if
+      (MyComponent){
   return <MyComponent key={val.id} data={val} />
-  
+    }
+    else{
+      return null;
+    }
   })
 
   
