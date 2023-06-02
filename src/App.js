@@ -19,11 +19,19 @@ import Sdata from './components/Sdata';
 
 //console.log();
 const Ssdata=Sdata.map((val ,index)=>{
-  console.log(index);
+
+  MyComponent=MapComponent[index];
+  console.log(MyComponent);
+  if(MyComponent)
 return <About key={index.id} description={val.description} image={val.image}/>
 
 })
 const App = () =>{
+  const MapComponent ={
+  0:About,
+  1:Services
+
+  }
   return (
     <>
       <Nav/>
