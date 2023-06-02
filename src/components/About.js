@@ -11,7 +11,7 @@ const About = ({data}) => {
        
         <div className="about">
             <div className="about-img-holder">
-                <img src={data.image} className="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"/>
+                <img src={data.image} className="about-img" alt="Download Free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"/>
             </div>
             <div className="about-caption">
                 <p className="section-subtitle">Who Am I ?</p>
