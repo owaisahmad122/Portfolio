@@ -20,11 +20,11 @@ import Sdata from './components/Sdata';
 //console.log();
 const App = () =>{
   
-  const Ssdata = {
+  const MapComponent = {
     1: About, 
     2: Services,
-   // 3: Services,
-    //3: Services 
+    3: Services,
+    4: Services 
     }
  
   return (
@@ -34,10 +34,10 @@ const App = () =>{
       <div>
         {
         Sdata.map(val=>{
-    const Components =Ssdata[val.id];
+    const Components = MapComponent[val.id];
     {console.log(Components);}
     return
-     <components key={val.id}  data={val}/> 
+     <components key={val.id}  data={val}/> ;
      }) } 
      </div>
       <Services />
