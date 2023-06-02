@@ -26,7 +26,7 @@ const App = () =>{
     3: Services,
     3: Services 
     }
- //{//console.log(Ssdata);}
+ {console.log(Ssdata);}
   return (
     <>
       <Nav/>
