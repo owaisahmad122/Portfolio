@@ -5,8 +5,8 @@ import React from 'react'
 //import Tool from   '../assets/imgs/ toolbox.svg';
 
 
-function Services(props) {
-    //console.log(props.descritions)
+const Services =({data}) => {
+    console.log(data.descritions)
   return (
     <section className="section" id="service">
     <div className="container text-center">
@@ -16,36 +16,36 @@ function Services(props) {
             <div className="col-md-6 col-lg-3">
                 <div className="service-card">
                     <div className="body">
-                        <img src={props.image} alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon"/>
+                        <img src={data.image} alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon"/>
                         <h6 className="title">Adipisicing</h6>
-                        <p className="subtitle">{props.descrition}</p>
+                        <p className="subtitle">{data.descrition}</p>
                     </div>
                 </div>
             </div>
             <div className="col-md-6 col-lg-3">
                 <div className="service-card">
                     <div className="body">
-                        <img src={props.image} alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon"/>
+                        <img src={data.image} alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon"/>
                         <h6 className="title">Sapiente</h6>
-                        <p className="subtitle">{props.descrition}</p>
+                        <p className="subtitle">{data.descrition}</p>
                     </div>
                 </div>
             </div>
             <div className="col-md-6 col-lg-3">
                 <div className="service-card">
                     <div className="body">
-                        <img src={props.image} alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon"/>
+                        <img src={data.image} alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon"/>
                         <h6 className="title">Placeat</h6>
-                        <p className="subtitle">{props.descrition}</p>
+                        <p className="subtitle">{data.descrition}</p>
                     </div>
                 </div>
             </div>
             <div className="col-md-6 col-lg-3">
                 <div className="service-card">
                     <div className="body">
-                        <img src={props.image} alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon"/>
+                        <img src={data.image} alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon"/>
                         <h6 className="title">Iusto</h6>
-                        <p class="subtitle">{props.descrition}</p>
+                        <p class="subtitle">{data.descrition}</p>
                     </div>
                 </div>
             </div>
