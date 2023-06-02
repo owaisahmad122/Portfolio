@@ -34,8 +34,8 @@ const App = () =>{
       <div>
         {
         Sdata.map(val=>{
-    const components =Ssdata[val.id];
-    {console.log(components);}
+    const Components =Ssdata[val.id];
+    {console.log(Components);}
     return
      <components key={val.id}  data={val}/> 
      }) } 
