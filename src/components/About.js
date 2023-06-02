@@ -2,7 +2,7 @@ import React from 'react'
 //import Man from '../assets/imgs/man.png'
 
 const About = ({data}) => {
-   console.log(data.image);
+  // console.log(data.image);
     
   return (
     <section className="section pt-0" id="about">

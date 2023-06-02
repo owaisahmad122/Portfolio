@@ -26,7 +26,7 @@ const App = () =>{
     3: Services,
     3: Services 
     }
- {console.log(Ssdata);}
+ 
   return (
     <>
       <Nav/>
@@ -35,6 +35,7 @@ const App = () =>{
         {
         Sdata.map(val=>{
     const components =Ssdata[val.id];
+    {console.log(components);}
      <components key={val.id}  data={val}>
       
      </components> 
