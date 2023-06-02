@@ -29,7 +29,7 @@ const App = () =>{
    const MyComponent=MapComponent[index];
     console.log(val);
     if(MyComponent)
-  return <MyComponent key={val.id} description={val.description} image={val.image}/>
+  return <MyComponent key={val.id} data={val} />
   
   })
 
