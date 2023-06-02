@@ -26,7 +26,7 @@ const App = () =>{
     <>
       <Nav/>
       <Header/> 
-      <About description={Sdata.description} image={Sdata.image}/>
+      <About />
       <Services />
       <Portfolio/>
       <Price></Price>
