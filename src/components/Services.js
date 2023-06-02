@@ -6,7 +6,7 @@ import React from 'react'
 
 
 const Services =(data) => {
-    console.log(data.description)
+    console.log(data)
   return (
     <section className="section" id="service">
     <div className="container text-center">
@@ -16,7 +16,7 @@ const Services =(data) => {
             <div className="col-md-6 col-lg-3">
                 <div className="service-card">
                     <div className="body">
-                        <img src={data.image} alt="Download Free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon"/>
+                        <img src={data} alt="Download Free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon"/>
                         <h6 className="title">Adipisicing</h6>
                         <p className="subtitle">{data.descrition}</p>
                     </div>
