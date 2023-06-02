@@ -14,31 +14,30 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Sdata from './components/Sdata';
 
-const Ssdata = {
-1: About, 
-2: Services,
-3: Services,
-3: Services 
 
-
-}
-return(
-Sdata.map((val,index)=>{
-
-  <>
-const components =Ssdata[val.id];
- <components key={val.id}  data={val}>
-  
- </components>   
- </>
-// );
-}) 
-)
 
 
 //console.log();
 const App = () =>{
   
+  const Ssdata = {
+    1: About, 
+    2: Services,
+    3: Services,
+    3: Services 
+    }
+    return(
+    Sdata.map((val,index)=>{
+    
+      <>
+    const components =Ssdata[val.id];
+     <components key={val.id}  data={val}>
+      
+     </components>   
+     </>
+    // );
+    }) 
+    )
  //{//console.log(Ssdata);}
   return (
     <>
