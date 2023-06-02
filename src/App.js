@@ -26,24 +26,20 @@ const App = () =>{
     3: Services,
     3: Services 
     }
-    return(
-    Sdata.map((val,index)=>{
-    
-      <>
-    const components =Ssdata[val.id];
-     <components key={val.id}  data={val}>
-      
-     </components>   
-     </>
-    // );
-    }) 
-    )
  //{//console.log(Ssdata);}
   return (
     <>
       <Nav/>
       <Header/> 
-    
+      <div>
+        {
+        Sdata.map((val,index)=>{
+    const components =Ssdata[val.id];
+     <components key={val.id}  data={val}>
+      
+     </components> 
+     }) } 
+     </div>
       <Services />
       <Portfolio/>
       <Price></Price>
