@@ -37,7 +37,7 @@ const App = () =>{
     const Components = MapComponent[val.id];
     {console.log( Sdata.map(val));}
     return
-     <components key={val.id}  data={val}/> ;
+     <Components key={val.id}  data={val}/> ;
      }) } 
      </div>
       <Services />
