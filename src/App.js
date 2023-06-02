@@ -33,7 +33,7 @@ const App = () =>{
       <Header/> 
       <div>
         {
-        Sdata.map((val,index)=>{
+        Sdata.map(val=>{
     const components =Ssdata[val.id];
      <components key={val.id}  data={val}>
       
