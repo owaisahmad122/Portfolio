@@ -39,7 +39,6 @@ const App = () =>{
       <Nav/>
       <Header/> 
       {Ssdata}
-      
       <Portfolio/>
       <Price></Price>
       <Hire></Hire>
