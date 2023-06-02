@@ -18,18 +18,20 @@ import Sdata from './components/Sdata';
 
 
 //console.log();
-const Ssdata=Sdata.map((val ,index)=>{
 
-  MyComponent=MapComponent[index];
-  console.log(val);
-  if(MyComponent)
-return <MyComponent key={val.id} description={val.description} image={val.image}/>
-
-})
 const App = () =>{
   const MapComponent ={
   0:About,
   1:Services
+  };
+  const Ssdata=Sdata.map((val ,index)=>{
+
+    MyComponent=MapComponent[index];
+    console.log(val);
+    if(MyComponent)
+  return <MyComponent key={val.id} description={val.description} image={val.image}/>
+  
+  })
 
   }
   return (
