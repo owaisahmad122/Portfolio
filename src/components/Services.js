@@ -5,7 +5,7 @@ import React from 'react'
 //import Tool from   '../assets/imgs/ toolbox.svg';
 
 
-const Services =({data}) => {
+const Services =(data) => {
     //console.log(data.descrition)
   return (
     <section className="section" id="service">

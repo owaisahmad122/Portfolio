@@ -1,7 +1,7 @@
 import React from 'react'
 //import Man from '../assets/imgs/man.png'
 
-const About = ({data}) => {
+const About = (data) => {
   // console.log(data.image);
     
   return (
