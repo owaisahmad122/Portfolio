@@ -19,7 +19,7 @@ import Sdata from './components/Sdata';
 
 //console.log();
 const App = () =>{
-  console.log(Sdata.map());
+  
   const MapComponent = {
     1: About, 
     2: Services,
@@ -31,6 +31,7 @@ const App = () =>{
     <>
       <Nav/>
       <Header/> 
+      {console.log(Sdata.map())}
       <div>
         {
         Sdata.map(val=>{
