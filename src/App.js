@@ -28,7 +28,7 @@ const App = () =>{
   };
   const Ssdata=Sdata.map((val ,index)=>{
 
-   const MyComponent=MapComponent[val.id];
+   const MyComponent=MapComponent[index];
     console.log(MyComponent);
     if
       (MyComponent){
