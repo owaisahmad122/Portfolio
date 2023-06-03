@@ -22,7 +22,7 @@ import Sdata from './components/Sdata';
 const App = () =>{
   const MapComponent ={
   0:About,
-  1:Services,
+  1:Services
 //  2:Services,
   //3:Services
   };
