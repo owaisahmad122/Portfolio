@@ -29,7 +29,7 @@ const App = () =>{
   const Ssdata=Sdata.map((val ,index)=>{
 
    const MyComponent=MapComponent[index[id]];
-    //console.log(val);
+    console.log(MyComponent);
     if
       (MyComponent){
   return <MyComponent key={val.id} data={val} />
