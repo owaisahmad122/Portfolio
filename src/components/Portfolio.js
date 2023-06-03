@@ -1,10 +1,10 @@
 import React from 'react'
 //import folio1 from '../assets/imgs/folio-1.jpg'
 //import folio2 from '../assets/imgs/folio-2.jpg'
-//import folio3 from '../assets/imgs/folio-3.jpg'
+//import folio3 from '../assets/imgs/folio-3.jpg'9319530612
 
 function Portfolio({ArrayData}) {
-    console.log(ArrayData)
+   // console.log(ArrayData)
   return (
     <section className="section" id="portfolio">
         <div className="container text-center">

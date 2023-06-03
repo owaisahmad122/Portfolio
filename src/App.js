@@ -21,9 +21,10 @@ import Sdata from './components/Sdata';
 //<Portfolio/>
 //<Price></Price>
 const App = () =>{
-  console.log(Sdata.slice(1,3));
+  
   
   Services=Sdata.slice(1,4);
+  console.log(Services);
   const MapComponent ={
     
   0:About,
