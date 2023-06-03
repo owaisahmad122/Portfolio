@@ -29,6 +29,38 @@ const Sdata = [
     image:"Images/folio-1.jpg"
 
 },
+{
+    id:6,
+    description:"Category: Web Templates",
+    image:"Images/folio-2.jpg"
+
+},{
+    id:7,
+    description:"Category: Web Templates",
+    image:"Images/folio-3.jpg"
+
+},
+{
+    id:8,
+    description:"accusamus reprehenderit \nprovident dolorem  1\nquos neque  \nfugiat quibusdam",
+    image:"scooter.svg"
+
+},
+{
+    id:9,
+    description:"accusamus reprehenderit \nprovident dolorem  1\nquos neque  \nfugiat quibusdam",
+    image:"Images/startup.svg"
+
+},{
+    id:10,
+    description:"accusamus reprehenderit \nprovident dolorem  1\nquos neque  \nfugiat quibusdam",
+    image:"Images/shipped.svg"
+
+}
+
+
+
+
 
 
 
