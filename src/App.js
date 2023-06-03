@@ -21,7 +21,7 @@ import Sdata from './components/Sdata';
 //<Portfolio/>
 //<Price></Price>
 const App = () =>{
-  console.log(Sdata[2]);
+  console.log(Sdata[1,3]);
   let SArr ;
    //Sarr=Sdata.slice[2:3]
   const MapComponent ={
