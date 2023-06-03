@@ -7,7 +7,7 @@ import React from 'react'
 
 
 const Services =({ArrayData}) => {
-    console.log(ArrayData.id)
+   // console.log(ArrayData.id)
     
   return (
     <section className="section" id="service">
