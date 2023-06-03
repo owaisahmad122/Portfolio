@@ -31,11 +31,11 @@ const App = () =>{
    const MyComponent=MapComponent[index];
     console.log(val.image);
     if
-      (MyComponent){
+      (MyComponent===0){
   return <MyComponent key={val.id} ArrayData={val} />
     }
     else{
-      return null;
+      return <MyComponent key={val.id} ArrayData={val} />
     }
   })
 
