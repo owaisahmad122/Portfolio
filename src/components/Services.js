@@ -18,7 +18,7 @@ const Services =({ArrayData}) => {
             <div className="col-md-6 col-lg-3">
                 <div className="service-card">
                     <div className="body">
-                        <img src={ArrayData.image.id} alt="Download Free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon"/>
+                        <img src={ArrayData.image} alt="Download Free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon"/>
                         <h6 className="title">Adipisicing</h6>
                         <p className="subtitle">{ArrayData.descrition}</p>
                     </div>
@@ -27,7 +27,7 @@ const Services =({ArrayData}) => {
             <div className="col-md-6 col-lg-3">
                 <div className="service-card">
                     <div className="body">
-                        <img src={ArrayData.image.id} alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon"/>
+                        <img src={ArrayData.image} alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon"/>
                         <h6 className="title">Sapiente</h6>
                         <p className="subtitle">{ArrayData.descrition}</p>
                     </div>
@@ -36,7 +36,7 @@ const Services =({ArrayData}) => {
             <div className="col-md-6 col-lg-3">
                 <div className="service-card">
                     <div className="body">
-                        <img src={ArrayData.image.id} alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon"/>
+                        <img src={ArrayData.image} alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon"/>
                         <h6 className="title">Placeat</h6>
                         <p className="subtitle">{ArrayData.descrition}</p>
                     </div>
