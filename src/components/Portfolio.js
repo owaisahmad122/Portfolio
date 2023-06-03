@@ -4,6 +4,7 @@ import React from 'react'
 //import folio3 from '../assets/imgs/folio-3.jpg'
 
 function Portfolio({ArrayData}) {
+    console.log(ArrayData)
   return (
     <section className="section" id="portfolio">
         <div className="container text-center">
