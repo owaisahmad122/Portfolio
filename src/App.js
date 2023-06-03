@@ -19,6 +19,7 @@ import Sdata from './components/Sdata';
 
 //console.log();
 //<Portfolio/>
+//<Price></Price>
 const App = () =>{
   const MapComponent ={
   0:About,
@@ -48,8 +49,6 @@ const App = () =>{
       <Nav/>
       <Header/> 
       {Ssdata}
-      
-      <Price></Price>
       <Hire></Hire>
       <Testmonial/>
       <Blog/>
