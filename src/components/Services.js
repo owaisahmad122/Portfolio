@@ -6,7 +6,7 @@ import React from 'react'
 //import Sdata from '../components/Sdata';
 
 
-const Services =(data,index) => {
+const Services =(ArrayData) => {
     console.log(data.id)
   return (
     <section className="section" id="service">
