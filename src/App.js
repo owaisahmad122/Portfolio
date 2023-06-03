@@ -32,7 +32,7 @@ const App = () =>{
     console.log(val.image);
     if
       (MyComponent){
-  return <MyComponent key={val.id} data={val.id} />
+  return <MyComponent  data={val} />
     }
     else{
       return null;
