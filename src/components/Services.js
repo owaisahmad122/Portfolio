@@ -3,6 +3,7 @@ import React from 'react'
 //import { ReactComponent as scooter } from '../assets/imgs/scooter.svg';
 //import Response from   '../assets/imgs/responsive.svg';
 //import Tool from   '../assets/imgs/ toolbox.svg';
+import Sdata from './components/Sdata';
 
 
 const Services =(data,index) => {
