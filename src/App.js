@@ -22,20 +22,20 @@ import Sdata from './components/Sdata';
 const App = () =>{
   const MapComponent ={
   0:About,
- // 1:Services,
- // 2:Services,
-  3:Services
+  //1:Services,
+ //2:Services,
+ // 3:Services
   };
   const Ssdata=Sdata.map((val ,index)=>{
 
    const MyComponent=MapComponent[index];
     console.log(val.image);
     if
-      (MyComponent===0){
+      (MyComponent){
   return <MyComponent key={val.id} ArrayData={val} />
     }
     else{
-      return <MyComponent key={val.id} ArrayData={val} />
+      return null;
     }
   })
 
