@@ -30,7 +30,7 @@ const App = () =>{
   0:About,
   //1:Services,
  //2:Services,
-  Services=Sdata.slice(1,4),
+  Services:Sdata.slice(1,4),
  6:Portfolio,
  9:Price
 
