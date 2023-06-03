@@ -22,7 +22,13 @@ const Sdata = [
     description:"Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.",
     image:"Images/toolbox.svg"
 
-}
+},
+{
+    id:5,
+    description:"Category: Web Templates",
+    image:"Images/folio-1.jpg"
+
+},
 
 
 

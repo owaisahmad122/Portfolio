@@ -24,7 +24,9 @@ const App = () =>{
   0:About,
   //1:Services,
  //2:Services,
- 3:Services
+ 3:Services,
+ 4:Portfolio
+
   };
   const Ssdata=Sdata.map((val ,index)=>{
 

@@ -1,9 +1,9 @@
 import React from 'react'
-import folio1 from '../assets/imgs/folio-1.jpg'
-import folio2 from '../assets/imgs/folio-2.jpg'
-import folio3 from '../assets/imgs/folio-3.jpg'
+//import folio1 from '../assets/imgs/folio-1.jpg'
+//import folio2 from '../assets/imgs/folio-2.jpg'
+//import folio3 from '../assets/imgs/folio-3.jpg'
 
-function Portfolio() {
+function Portfolio({ArrayData}) {
   return (
     <section className="section" id="portfolio">
         <div className="container text-center">
@@ -12,33 +12,33 @@ function Portfolio() {
             <div className="row">
                 <div className="col-md-4">
                     <a href="#" className="portfolio-card">
-                        <img src={folio1} className="portfolio-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"/>    
+                        <img src={ArrayData.image} className="portfolio-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"/>    
                         <span className="portfolio-card-overlay">
                             <span className="portfolio-card-caption">
                                 <h4>Web Designing</h4>
-                                <p className="font-weight-normal">Category: Web Templates</p>
+                                <p className="font-weight-normal">{ArrayData.description}</p>
                             </span>                         
                         </span>                     
                     </a>
                 </div>
                 <div className="col-md-4">
                     <a href="#" className="portfolio-card">
-                        <img className="portfolio-card-img img-responsive rounded" src={folio2}  alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"/>
+                        <img className="portfolio-card-img img-responsive rounded" src={ArrayData.image}  alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"/>
                         <span className="portfolio-card-overlay">
                             <span className="portfolio-card-caption">
                                 <h4>Web Designing</h4>
-                                <p className="font-weight-normal">Category: Web Templates</p>
+                                <p className="font-weight-normal">{ArrayData.description}</p>
                             </span>                         
                         </span>                         
                     </a>
                 </div>
                 <div className="col-md-4">
                     <a href="#" className="portfolio-card">
-                        <img className="portfolio-card-img img-responsive rounded" src={folio3}  alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"/>    
+                        <img className="portfolio-card-img img-responsive rounded" src={ArrayData.image}  alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"/>    
                         <span className="portfolio-card-overlay">
                             <span className="portfolio-card-caption">
                                 <h4>Web Designing</h4>
-                                <p class="font-weight-normal">Category: Web Templates</p>
+                                <p class="font-weight-normal">{ArrayData.description}</p>
                             </span>                         
                         </span>                     
                     </a>
