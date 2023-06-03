@@ -7,7 +7,7 @@ import React from 'react'
 
 
 const Services =({ArrayData}, index) => {
-    console.log(ArrayData.index)
+    console.log(ArrayData.image)
   return (
     <section className="section" id="service">
     <div className="container text-center">
