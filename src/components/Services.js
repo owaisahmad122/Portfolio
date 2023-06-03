@@ -6,7 +6,7 @@ import React from 'react'
 
 
 const Services =(data,index) => {
-    console.log(index)
+    console.log(index.id)
   return (
     <section className="section" id="service">
     <div className="container text-center">
