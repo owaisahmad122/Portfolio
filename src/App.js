@@ -23,8 +23,8 @@ const App = () =>{
   const MapComponent ={
   0:About,
   1:Services,
-  2:Services,
-  3:Services
+//  2:Services,
+  //3:Services
   };
   const Ssdata=Sdata.map((val ,index)=>{
 
