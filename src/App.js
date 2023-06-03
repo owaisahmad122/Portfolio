@@ -23,14 +23,14 @@ import Sdata from './components/Sdata';
 const App = () =>{
   
   
-  
+  let ServiceData=Sdata.slice(1,4);
   
   const MapComponent ={
     
   0:About,
   //1:Services,
  //2:Services,
-  Services:Sdata.slice(1,4),
+ ServiceData:Services,
  6:Portfolio,
  9:Price
 
