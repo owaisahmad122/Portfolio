@@ -20,10 +20,10 @@ import Sdata from './components/Sdata';
 //console.log();
 //<Portfolio/>
 //<Price></Price>
-const App = (value) =>{
-  console.log(value);
+const App = () =>{
+  console.log(Sdata);
   let SArr ;
-   // Sarr=[]
+   //Sarr=Sdata.slice[2:3]
   const MapComponent ={
     
   0:About,
