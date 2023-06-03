@@ -24,7 +24,7 @@ const App = () =>{
   
   
   
-  console.log(Services);
+  
   const MapComponent ={
     
   0:About,
@@ -35,6 +35,7 @@ const App = () =>{
  9:Price
 
   };
+  console.log(MapComponent);
   const Ssdata=Sdata.map((val ,index)=>{
 
    const MyComponent=MapComponent[index];
