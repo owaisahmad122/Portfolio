@@ -33,7 +33,7 @@ const App = () =>{
   0:About,
   //1:Services,
  //2:Services,
- ServiceData:Services,
+ 1:Services,
  6:Portfolio,
  9:Price
 
