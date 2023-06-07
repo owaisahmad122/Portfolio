@@ -39,6 +39,7 @@ const App = () =>{
 
   };
   console.log(MapComponent);
+  
   const Ssdata=Sdata.map((val ,index)=>{
 
    const MyComponent=MapComponent[index];
