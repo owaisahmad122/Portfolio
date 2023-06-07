@@ -24,7 +24,7 @@ const App = () =>{
   
   
   const ServiceData= [{
-  data:Sdata.slice(1,4)
+  data:Sdata.slice(0,4)
   }
   ]
   
